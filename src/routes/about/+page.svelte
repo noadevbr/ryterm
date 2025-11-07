@@ -35,6 +35,12 @@
 				<SecondaryButton label={"X/Twitter"} func={() => {window.location.href = "https://x.com/crowzz97"}} --width={"100%"}></SecondaryButton>
 			{/snippet}
 		</People>
+		<People name={"Takasaki"} role={"Contributor, Mobile developer"}>
+			{#snippet buttons()}
+				<SecondaryButton label={"Github"} func={() => {window.location.href = "https://github.com/takasakiii"}} --width={"100%"}></SecondaryButton>
+				<SecondaryButton label={"Discord (copy nick)"} func={() => {navigator.clipboard.writeText("takasaki.")}} --width={"100%"}></SecondaryButton>
+			{/snippet}
+		</People>
 		<People name={"Ícaro"} role={"Contributor, Full-stack developer"}>
 			{#snippet buttons()}
 				<SecondaryButton label={"Github"} func={() => {window.location.href = "https://github.com/icaroCodes"}} --width={"100%"}></SecondaryButton>
