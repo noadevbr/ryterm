@@ -45,7 +45,7 @@
 				<SecondaryButton
 					label={"X/Twitter"}
 					func={() => {
-						window.location.href = "https://x.com/aury_dev";
+						window.location.href = "https://x.com/aurora_0x3a";
 					}}
 					--width={"100%"}
 				></SecondaryButton>
