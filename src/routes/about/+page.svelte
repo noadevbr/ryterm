@@ -25,7 +25,7 @@
 			to this organization.
 		</p>
 	</div>
-	<div>
+	<div class="peoples">
 		<People name="Aury" desc="Founder and BDFL, Full-Stack developer">
 			{#snippet buttons()}
 				<SecondaryButton
@@ -89,3 +89,10 @@
 	</div>
 </main>
 
+<style>
+	.peoples {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+</style>

@@ -12,7 +12,7 @@
 		<h1>All our projects are here.</h1>
 		<p>We don't have too much projects for now, but soon we'll have a bunch of FOSS applications <span class="font-bold underline">for you</span> :)</p>
 	</div>
-	<div>
+	<div class="projects">
 		<Project name="Kutter" desc="Hybrid(E2EE/TLS) chat application(under development)">
 			{#snippet buttons()}
 				<PrimaryButton
@@ -23,3 +23,11 @@
 		</Project>
 	</div>
 </main>
+
+<style>
+	.projects {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+</style>
