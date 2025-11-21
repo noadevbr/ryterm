@@ -1,7 +1,6 @@
 <script>
 	import PrimaryButton from "./PrimaryButton.svelte";
 	import SecondaryButton from "./SecondaryButton.svelte";
-
 </script>
 
 <header>
