@@ -13,7 +13,7 @@
 		<p>We don't have too much projects for now, but soon we'll have a bunch of FOSS applications <span class="font-bold underline">for you</span> :)</p>
 	</div>
 	<div class="projects">
-		<Project name="Kutter" desc="Hybrid(E2EE/TLS) chat application(under development)">
+		<Project name="Kutter" desc="Hybrid chat application(under development)">
 			{#snippet buttons()}
 				<PrimaryButton
 					label="API Repository"
