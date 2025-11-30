@@ -83,7 +83,7 @@
 			{/snippet}
 		</People>
 	</div>
-	<div>
+	<div class="communication">
 		<h2>
 			Our IRC channel on libera.chat
 		</h2>
@@ -91,10 +91,23 @@
 			label="#ryterm"
 			link="irc://irc.libera.chat/#ryterm"
 		></SecondaryButton>
+		<h2>
+			Our email
+		</h2>
+		<SecondaryButton
+			label="aury@ryterm.xyz"
+			link="mailto:aury@ryterm.xyz"
+		></SecondaryButton>
 	</div>
 </main>
 
 <style>
+	.communication {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
 	.peoples {
 		display: flex;
 		flex-direction: column;
