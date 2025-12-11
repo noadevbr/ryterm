@@ -17,6 +17,10 @@
 		link="/about"
 	></SecondaryButton>
 	<SecondaryButton
+		label="Discord"
+		link="https://discord.gg/RySsQ7Ef3q"
+	></SecondaryButton>
+	<SecondaryButton
 		label="Github"
 		link="https://github.com/ryterm-org"
 	></SecondaryButton>
